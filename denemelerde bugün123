@@ -1,0 +1,14 @@
+imdat = int(0)
+for imdat in range (0,101) :
+
+     if imdat % 15 == 0:
+         print("fizzbuzz")
+
+     elif imdat % 3 == 0 :
+         print ("fizz")
+
+    elif  imdat % 5 == 0 :
+        print ("buzz")
+
+     else :
+         print(imdat)
